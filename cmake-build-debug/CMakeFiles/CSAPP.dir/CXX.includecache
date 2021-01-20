@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CSAPP/main.cpp
+iostream
+-
+show_bytes.h
+D:/CSAPP/show_bytes.h
+string.h
+-
+
+D:/CSAPP/show_bytes.h
+
