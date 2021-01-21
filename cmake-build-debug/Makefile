@@ -142,6 +142,33 @@ CSAPP/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/build
 .PHONY : CSAPP/fast
 
+answer2_15.obj: answer2_15.cpp.obj
+
+.PHONY : answer2_15.obj
+
+# target to build an object file
+answer2_15.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/answer2_15.cpp.obj
+.PHONY : answer2_15.cpp.obj
+
+answer2_15.i: answer2_15.cpp.i
+
+.PHONY : answer2_15.i
+
+# target to preprocess a source file
+answer2_15.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/answer2_15.cpp.i
+.PHONY : answer2_15.cpp.i
+
+answer2_15.s: answer2_15.cpp.s
+
+.PHONY : answer2_15.s
+
+# target to generate assembly for a file
+answer2_15.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CSAPP.dir\build.make CMakeFiles/CSAPP.dir/answer2_15.cpp.s
+.PHONY : answer2_15.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -232,6 +259,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CSAPP
+	@echo ... answer2_15.obj
+	@echo ... answer2_15.i
+	@echo ... answer2_15.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

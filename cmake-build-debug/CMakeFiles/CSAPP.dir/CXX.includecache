@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
+D:/CSAPP/answer2_15.h
+
 D:/CSAPP/main.cpp
 iostream
 -
 show_bytes.h
 D:/CSAPP/show_bytes.h
+answer2_15.h
+D:/CSAPP/answer2_15.h
 string.h
 -
 

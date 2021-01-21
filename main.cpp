@@ -1,8 +1,8 @@
 
 #include <iostream>
 #include "show_bytes.h"
+#include "answer2_15.h"
 #include <string.h>
 int main() {
-     const char* test="abcdef";
-     show_bytes((byte_pointer)test,strlen(test));
+     printf("%d",answer2_15(100,100));
 }
