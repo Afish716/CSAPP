@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CSAPP.dir/answer2_15.cpp.obj"
+  "CMakeFiles/CSAPP.dir/answer2.cpp.obj"
   "CMakeFiles/CSAPP.dir/main.cpp.obj"
   "CMakeFiles/CSAPP.dir/mask_0ff_code.cpp.obj"
   "CMakeFiles/CSAPP.dir/show_bytes.cpp.obj"
