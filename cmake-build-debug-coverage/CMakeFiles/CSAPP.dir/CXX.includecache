@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CSAPP/answer2.cpp
+cstring
+D:/CSAPP/cstring
+answer2.h
+D:/CSAPP/answer2.h
+
+D:/CSAPP/answer2.h
+
+D:/CSAPP/main.cpp
+iostream
+-
+show_bytes.h
+D:/CSAPP/show_bytes.h
+answer2.h
+D:/CSAPP/answer2.h
+string.h
+-
+
+D:/CSAPP/mask_0ff_code.cpp
+mask_0ff_code.h
+D:/CSAPP/mask_0ff_code.h
+stdlib.h
+D:/CSAPP/stdlib.h
+stdio.h
+-
+
+D:/CSAPP/mask_0ff_code.h
+
+D:/CSAPP/show_bytes.cpp
+stdio.h
+-
+show_bytes.h
+D:/CSAPP/show_bytes.h
+
+D:/CSAPP/show_bytes.h
+

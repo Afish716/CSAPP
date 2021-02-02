@@ -1,0 +1,71 @@
+        -:    0:Source:D:/CSAPP/answer2.cpp
+        -:    0:Graph:D:\CSAPP\cmake-build-debug-coverage\CMakeFiles\CSAPP.dir\answer2.cpp.gcno
+        -:    0:Data:D:\CSAPP\cmake-build-debug-coverage\CMakeFiles\CSAPP.dir\answer2.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1://
+        -:    2:// Created by Guoheng on 2021/1/21.
+        -:    3://
+        -:    4:#include "cstring"
+        -:    5:#include "answer2.h"
+    #####:    6:int answer2_15(int x,int y){
+    #####:    7:    if (!(x^y)){
+    %%%%%:    7-block  0
+    #####:    8:        return 1;
+    %%%%%:    8-block  0
+        -:    9:    }
+    #####:   10:        return 0;
+    %%%%%:   10-block  0
+        -:   11:}
+        -:   12:
+    #####:   13:int answer2_26(char *s,char *t){
+    #####:   14:    return strlen(s)>strlen(t) ? 1:0;
+    %%%%%:   14-block  0
+    %%%%%:   14-block  1
+    %%%%%:   14-block  2
+    %%%%%:   14-block  3
+        -:   15:    //尽量不要用unsigned来直接相减
+        -:   16:    //当s的长度小于t的长度时会产生不正确的结果，因为小于0 而数据类型时unsigned
+        -:   17:}
+        -:   18:
+        1:   19:int uadd_ok(unsigned short x,unsigned short y){
+        1:   20:    unsigned short sum=x+y;
+       1*:   21:    if (sum<x||sum<y){
+        1:   21-block  0
+    %%%%%:   21-block  1
+        1:   22:        return 0;
+        1:   22-block  0
+        -:   23:    }
+    #####:   24:    return 1;
+    %%%%%:   24-block  0
+        -:   25:}
+        -:   26:
+        1:   27:unsigned int print_uadd_ok(unsigned short x,unsigned short y){
+        1:   28:    unsigned short sum=x+y;
+        1:   29:    return sum;
+        1:   29-block  0
+        -:   30:}
+        -:   31:
+    #####:   32:int tadd_ok(int x, int y) {
+    #####:   33:    int sum=x+y;
+    #####:   34:    if (x>0&&y>0){
+    %%%%%:   34-block  0
+    %%%%%:   34-block  1
+    #####:   35:        if (sum<=0){
+    %%%%%:   35-block  0
+    #####:   36:            return 0;
+    %%%%%:   36-block  0
+        -:   37:        }
+        -:   38:    }
+    #####:   39:    if (x<0&&y<0){
+    %%%%%:   39-block  0
+    %%%%%:   39-block  1
+    #####:   40:        if (sum>=0){
+    %%%%%:   40-block  0
+    #####:   41:            return 0;
+    %%%%%:   41-block  0
+        -:   42:        }
+        -:   43:    }
+    #####:   44:    return 1;
+    %%%%%:   44-block  0
+        -:   45:}

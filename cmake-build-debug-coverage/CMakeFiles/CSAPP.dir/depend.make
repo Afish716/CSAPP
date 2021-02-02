@@ -4,6 +4,7 @@
 CMakeFiles/CSAPP.dir/answer2.cpp.obj: ../answer2.cpp
 CMakeFiles/CSAPP.dir/answer2.cpp.obj: ../answer2.h
 
+CMakeFiles/CSAPP.dir/main.cpp.obj: ../answer2.h
 CMakeFiles/CSAPP.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/CSAPP.dir/main.cpp.obj: ../show_bytes.h
 

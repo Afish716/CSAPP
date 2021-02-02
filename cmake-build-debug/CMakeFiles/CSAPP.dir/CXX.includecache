@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/CSAPP/answer2.cpp
-cstring
-D:/CSAPP/cstring
-answer2.h
-D:/CSAPP/answer2.h
+D:/CSAPP/show_bytes.cpp
+stdio.h
+-
+stdlib.h
+-
+show_bytes.h
+D:/CSAPP/show_bytes.h
 
-D:/CSAPP/answer2.h
+D:/CSAPP/show_bytes.h
 

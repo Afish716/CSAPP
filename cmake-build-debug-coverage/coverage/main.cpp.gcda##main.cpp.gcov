@@ -1,0 +1,18 @@
+        -:    0:Source:D:/CSAPP/main.cpp
+        -:    0:Graph:D:\CSAPP\cmake-build-debug-coverage\CMakeFiles\CSAPP.dir\main.cpp.gcno
+        -:    0:Data:D:\CSAPP\cmake-build-debug-coverage\CMakeFiles\CSAPP.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:
+        -:    2:#include <iostream>
+        -:    3:#include "show_bytes.h"
+        -:    4:#include "answer2.h"
+        -:    5:#include <string.h>
+        -:    6:
+        1:    7:int main() {
+        1:    8:   printf("%d",uadd_ok(40000,40000));
+        1:    8-block  0
+        1:    9:   std::cout<<"\n";
+        1:   10:   printf("%d",print_uadd_ok(40000,40000));
+        1:   11:}
+        -:   12:

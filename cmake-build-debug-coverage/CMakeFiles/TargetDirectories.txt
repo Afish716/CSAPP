@@ -1,0 +1,3 @@
+D:/CSAPP/cmake-build-debug-coverage/CMakeFiles/CSAPP.dir
+D:/CSAPP/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+D:/CSAPP/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir

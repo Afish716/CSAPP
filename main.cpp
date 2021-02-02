@@ -1,12 +1,13 @@
 
 #include <iostream>
 #include "show_bytes.h"
-#include "answer2.h"
-#include <string.h>
 
 int main() {
-   printf("%d",uadd_ok(40000,40000));
-   std::cout<<"\n";
-   printf("%d",print_uadd_ok(40000,40000));
+  int test1=0x89ABCDEF;
+  int test2=0x76543210;
+  byte_pointer x=(byte_pointer)&test1;
+  byte_pointer y=(byte_pointer)&test2;
+  byte_pointer result=homework_2_29(x,4,y,4);
+  show_bytes(result,4);
 }
 
