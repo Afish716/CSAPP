@@ -4,6 +4,7 @@
 #include "cstring"
 #include "answer2.h"
 
+typedef unsigned char *byte_pointer;
 int answer2_15(int x, int y) {
     if (!(x ^ y)) {
         return 1;
@@ -43,4 +44,22 @@ int tadd_ok(int x, int y) {
         }
     }
     return 1;
+}
+
+unsigned int replace(unsigned int x,int i,unsigned char b){
+       unsigned int m=x;
+       byte_pointer ptrToChar=(byte_pointer)&m;
+       ptrToChar[4-i]=b;
+       return m;
+}
+
+int homework2_61(int x) {
+    if (~x!=0){
+        return 1;
+    }
+    return 0;//所有位都为1
+}
+
+int homework2_61_B(int x) {
+    return !x;
 }
