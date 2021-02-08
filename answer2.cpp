@@ -54,12 +54,22 @@ unsigned int replace(unsigned int x,int i,unsigned char b){
 }
 
 int homework2_61(int x) {
-    if (~x!=0){
-        return 1;
-    }
-    return 0;//所有位都为1
+    return !~x;
 }
 
 int homework2_61_B(int x) {
     return !x;
 }
+
+int any_add_one(int x){
+    int mask_code=0b01010101010101010101010101010101;
+    if (mask_code&x==mask_code){
+        return 1;
+    }
+    return 0;
+}
+
+int leftmost_one(unsigned int x){
+    int count
+}
+

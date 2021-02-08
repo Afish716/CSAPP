@@ -12,4 +12,5 @@ int tadd_ok(int x,int y);
 unsigned int replace(unsigned int x,int i,unsigned char b);
 int homework2_61(int x);
 int homework2_61_B(int x);
+int any_add_one(int x);
 #endif //CSAPP_ANSWER2_H
